@@ -1,3 +1,3 @@
 import wandb
 import os
-print("first Python with Git action")
+print('The version of Wandb is: {wandb.__version__}')
