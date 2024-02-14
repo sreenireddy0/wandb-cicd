@@ -4,7 +4,7 @@ jobs:
   my-first-job:
     runs-on: ubuntu-latest
     steps:
-      -uses: actions/checkout@v5
+      -uses: actions/checkout@v4
       - name: hello
         run: | 
           echo "hello world"
